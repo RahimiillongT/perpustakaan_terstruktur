@@ -8,8 +8,9 @@
 
     <h2>Pilih Fitur:</h2>
     <ul>
-        <li><a href="fitur.php?fitur=cari">Pencarian</a></li>
-        <li><a href="fitur.php?fitur=pinjam">Peminjaman</a></li>
+        <li><a href="fitur.php?fitur=cari">Pencarian Buku</a></li>
+        <li><a href="fitur.php?fitur=pinjam">Peminjaman Buku</a></li>
+        <li><a href="fitur.php?fitur=pengembalian">Pengembalian Buku</a></li>
     </ul>
 </body>
 </html>

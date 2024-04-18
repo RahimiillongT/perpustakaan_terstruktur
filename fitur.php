@@ -7,6 +7,9 @@ switch ($fitur) {
     case 'pinjam':
         header('location:pinjam/pinjam.php?fitur=read');
         exit;
+    case 'pengembalian':
+        header('location:pinjam/pinjam.php?fitur=display');
+        exit;
     case 'cari':
     default:
         $keyword = $_GET['keyword'] ?? null;
