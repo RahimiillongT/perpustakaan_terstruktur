@@ -3,6 +3,7 @@ include "read-cart.php";
 include "add-cart.php";
 include "delete-cart.php";
 include "save-cart.php";
+include "display-pinjam.php";
 
 $fitur = $_GET['fitur'];
 switch ($fitur) {
@@ -19,7 +20,10 @@ switch ($fitur) {
         break;
     case 'save':
         save();
-        header('location:pinjam.php?fitur=read');
+        header('location:pinjam.php?fitur=display');
+        break;
+    case 'display':
+        displayPinjam();
         break;
     case 'read':
     default:

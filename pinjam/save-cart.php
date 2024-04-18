@@ -15,6 +15,7 @@ function save()
             "insert into dipinjam(peminjaman_id, buku_id, hari) values($id,$idbuku,1)";
             $result =$link->query($query);
         }
+        header('location:display-pinjam.php');
         $link->close();  
     }
 }
