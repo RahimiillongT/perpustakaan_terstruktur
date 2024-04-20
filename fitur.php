@@ -10,6 +10,9 @@ switch ($fitur) {
     case 'pengembalian':
         header('location:pinjam/pinjam.php?fitur=display');
         exit;
+    case 'history':
+        header('location:history.php?fitur=history');
+        exit;
     case 'cari':
     default:
         $keyword = $_GET['keyword'] ?? null;
