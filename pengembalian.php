@@ -1,5 +1,5 @@
 <?php
-$link = new mysqli("127.0.0.1", "root", "", "perpustakaan");
+$link = new mysqli("127.0.0.1", "root", "", "perpustakaan_terstruktur");
 
 
 if(isset($_GET['id'])) {
