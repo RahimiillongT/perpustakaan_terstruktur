@@ -11,7 +11,7 @@
         <li><a href="fitur.php?fitur=cari">Pencarian Buku</a></li>
         <li><a href="fitur.php?fitur=pinjam">Peminjaman Buku</a></li>
         <li><a href="fitur.php?fitur=pengembalian">Pengembalian Buku</a></li>
-        <li><a href="fitur.php?fitur=history">History</a></li>
+        <li><a href="fitur.php?fitur=history">Riwayat</a></li>
     </ul>
 </body>
 </html>
