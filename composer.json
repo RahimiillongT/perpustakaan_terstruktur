@@ -2,7 +2,7 @@
   "name": "kelompok2/perpustakaan-terstruktur-iesi",
   "description": "projek perpustakaan terstruktur",
   "type": "project",
-  "license": "MIT",
+  "license": "proprietary",
   "autoload": {
     "psr-4": {
       "Kelompok2\\PerpustakaanTerstrukturIesi\\": "src/"
