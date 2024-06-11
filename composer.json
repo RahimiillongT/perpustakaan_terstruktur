@@ -1,6 +1,6 @@
 {
   "name": "vendor/perpustakaan_terstruktur",
-  "description": "Perpustakaan terstruktur IESI",
+  "description": "Perpustakaan_terstruktur_IESI",
   "type": "project",
   "require": {
     "php": "^7.4 || ^8.0"
