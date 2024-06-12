@@ -1,7 +1,7 @@
 <?php
 function displayPinjam()
 {
-    $link = new mysqli("127.0.0.1", "root", "", "perpustakaan_terstruktur");
+    $link = new mysqli("127.0.0.1", "root", "", "perpustakaan");
 
     $queri_pinjam = "SELECT buku.id, buku.judul, peminjaman.tanggal_peminjaman, dipinjam.hari FROM peminjaman
                     JOIN dipinjam ON peminjaman.peminjaman_id = dipinjam.peminjaman_id

@@ -1,5 +1,5 @@
 <?php
-$link = new mysqli("127.0.0.1", "root", "", "perpustakaan_terstruktur");
+$link = new mysqli("127.0.0.1", "root", "", "perpustakaan");
 
 $query = "SELECT buku.id, buku.judul, riwayat.tanggal_peminjaman, riwayat.tanggal_pengembalian 
         FROM riwayat 

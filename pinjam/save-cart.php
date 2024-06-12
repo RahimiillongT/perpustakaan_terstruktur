@@ -5,7 +5,7 @@ function save()
     if (isset($_COOKIE[$cookie_name])) {
         $cart = json_decode($_COOKIE[$cookie_name], true);
         $link =new mysqli(
-            "127.0.0.1", "root", "", "perpustakaan_terstruktur");
+            "127.0.0.1", "root", "", "perpustakaan");
             $query ="insert into peminjaman values(null,current_timestamp())";            
             $result =$link->query($query);
             $id=$link->insert_id;
