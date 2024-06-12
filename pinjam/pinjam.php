@@ -5,7 +5,8 @@ include "delete-cart.php";
 include "save-cart.php";
 include "display-pinjam.php";
 
-$fitur = $_GET['fitur'];
+//$fitur = $_GET['fitur'];
+$fitur = isset($_GET['fitur']) ? $_GET['fitur'] : 'read';
 switch ($fitur) {
     case 'add':
         $idbuku = $_GET['idbuku'];

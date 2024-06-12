@@ -8,6 +8,11 @@
       "Kelompok2\\PerpustakaanTerstrukturIesi\\": "src/"
     }
   },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
   "minimum-stability": "beta",
   "require": {
     "php": "^7.4 || ^8.0"

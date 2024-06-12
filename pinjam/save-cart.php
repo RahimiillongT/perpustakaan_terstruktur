@@ -15,7 +15,11 @@ function save()
             "insert into dipinjam(peminjaman_id, buku_id, hari, tanggal_peminjaman) values($id,$idbuku,1,current_timestamp())";
             $result =$link->query($query);
         }
-        header('location:display-pinjam.php');
+        if (!headers_sent()) {
+            header('Location: display-pinjam.php');
+        } else {
+            echo "Cannot redirect, headers already sent.";
+        }
         $link->close();  
     }
 }
